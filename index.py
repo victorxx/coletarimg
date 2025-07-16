@@ -24,8 +24,8 @@ try:
 
         for i in range(contagem):
             src = imagens.nth(i).get_attribute('src')
-            final=f'"{src}"'
-            hrefs.append(f'"{final}"')
+            
+            hrefs.append(f'"{src}"')
 
 
         resultado = ','.join(hrefs)
